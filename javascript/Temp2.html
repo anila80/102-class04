@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function toCelsius(f) {
+            return (5 / 9) * (f - 32);
+        }
+
+        function xyz() {
+            let user = prompt("What is the temperature in Fahrenheit today?");
+
+            document.getElementById("demo").innerHTML = toCelsius(user);
+        }
+
+    </script>
+
+    <h2>JavaScript Functions</h2>
+
+    <p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+
+    <button onclick="xyz()">Convert Temp</button>
+
+    <p id="demo"></p>
+
+
+
+</body>
+
+</html>

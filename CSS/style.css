@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family: system-ui;
+    background-color: black;
+
+    }
+
+.cherry {
+    background-color: rgb(255, 0, 98);
+    background-image: url("https://getwallpapers.com/wallpaper/full/0/0/7/1211838-pink-cherry-blossom-wallpaper-2560x1440-windows-7.jpg");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+h1{
+    color: brown;
+    font-size: 3.5em; /* 40px/16=2.5em */
+
+    }
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+   background-color: pink;
+   color: black;
+   width: 350px;
+   height: 60;
+   font-family: sans-serif;
+   font-size: 20px;
+   border-color: deeppink;
+   font-weight: 400;
+   border-radius: 10px;
+   letter-spacing: 2px;
+}
