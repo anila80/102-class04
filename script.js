@@ -32,3 +32,18 @@ function callFunc(){
 function toCelsius(f) {
     return (5/9) * (f-32);
 }
+
+
+function userName() {
+
+    let thisName;
+    while (thisName != "5") {
+        thisName = prompt("What is 2 +  3?");
+        if (thisName == "5") {
+            alert("You are right")
+        }
+        else {
+            alert("Try Again")
+        }
+    }
+}
